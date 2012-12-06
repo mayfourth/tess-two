@@ -54,7 +54,7 @@ To build tess-two, run the following commands in the terminal:
     cd tess
     cd tess-two
     ndk-build
-    android update project --path .
+    android update project --path .  --target android-10
     ant release
 
 To build eyes-two, additionally run the following:
@@ -62,7 +62,7 @@ To build eyes-two, additionally run the following:
     cd ..
     cd eyes-two
     ndk-build
-    android update project --path .
+    android update project --path . --target android-10
     ant release
 
 After building, the tess-two and eyes-two projects can be imported into Eclipse using 
